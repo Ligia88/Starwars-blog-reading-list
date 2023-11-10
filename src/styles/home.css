@@ -1,0 +1,21 @@
+/* Establece el fondo negro */
+
+/* Establece el fondo negro */
+body {
+    background-color: black;
+    color: white; /* Cambia el color del texto a blanco */
+    background-image: url('https://a-static.besthdwallpaper.com/dark-galaxy-wallpaper-2048x1536-55224_26.jpg'); /* Reemplaza con la ruta correcta de tu imagen */
+    background-repeat: repeat; /* Para repetir la imagen de estrellas */
+}
+
+.favorite-button {
+    background-color: white; /* Cambia el color de fondo a azul o el que prefieras */
+    color: white; /* Cambia el color del texto a blanco o el que prefieras */
+    /* El resto de los estilos se mantienen iguales */
+  }
+  
+  .favorite-button:hover {
+    background-color: lightblue; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+  }
+  
+

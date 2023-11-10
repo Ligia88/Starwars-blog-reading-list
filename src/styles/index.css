@@ -1,0 +1,33 @@
+/* 
+    General Styles
+*/
+.my-card {
+    border: 1px solid grey;
+    min-width: 300px;
+    margin-right: 5px;
+    padding: 15px;
+    /* Otros estilos que desees aplicar al div */
+}
+
+/* Estilo para el div que contiene la imagen dentro de las cartas */
+.my-card > div > img {
+    width: 100%;
+}
+
+.body-text, .button-footer {
+    padding: 15px;
+}
+ 
+/* Estilos para la clase "button footer" */
+.button-footer {
+    display: flex;
+    justify-content: space-between; /* Corregido: agregado guiones en "justify-content" y "space-between" */
+    /* Otros estilos que desees aplicar al div */
+}
+
+.my-carousel {
+    border: 1px solid grey;
+    display: flex;
+    overflow-x: scroll;
+    /* Otros estilos que desees aplicar al div */
+}
